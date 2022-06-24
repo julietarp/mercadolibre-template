@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        body{
+            font-family: Proxima Nova,-apple-system,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+            margin: 0;
+        }
         .contenido {
             background-color:rgba(0,0,0,.1);
             padding-left: 75px;
@@ -17,18 +21,35 @@
 
         }
         .caja-blanca {
+            padding: 20px;
             background-color: white;
         }
         .columna-izquierda {
             float:left; 
-            width:600px;
+            width:700px;
             padding:20px;
 
         }
         .columna-derecha{
 
             float:left;
-            width:300px;
+            width:350px;
+        }
+
+        .cuadro-precio{ 
+            padding: 15px;
+            border-radius: 5px;
+            border: 1px solid rgb(196, 191, 191);
+
+        }
+
+        .texto-verde{
+            color: green;
+
+        }
+        .precio{
+            font-size:xx-large;
+
         }
 
     </style>
@@ -44,9 +65,19 @@
                 
                 </div>
                 <div class="columna-derecha">
+                    <div class= "cuadro-precio"> 
+                        
+                        <h1>Antiparras</h1>
+                        <h2>Natacion</h2>
+                        <p>
+                            <span class="precio"> $1500</span>
+                            <sup class="texto-verde">15%OFF</sup>
 
-                    <p>ANTIPARRA ARENA</p>
-                    <p>Natacion</p>
+                        </p>
+                        <p>En 12x $125</p>
+                        <p>Llega<b> entre el lunes y el martes</b> por $889,99</p>
+
+                    </div>
                 </div>
             
         </div>
