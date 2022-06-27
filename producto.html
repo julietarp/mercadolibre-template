@@ -31,6 +31,23 @@
             float:left;
             width:350px;
         }
+        .columna-izq2{
+            float: left;
+            width: 85px;
+        }
+        .columna-der2{
+            float: left;
+            padding-left: 7px;
+    
+        }
+        .columna-izq3{
+            float:left;
+            width: 50px;
+        }
+        .columna-der3{
+            float: left;
+            width: 250px;
+        }
         .cuadro-precio{ 
             padding: 15px;
             border-radius: 5px;
@@ -39,8 +56,34 @@
         .texto-verde{
             color: green;
         }
+        .texto-gris{
+            color: grey; 
+        }
+        .texto-blanco{
+            color: white;
+        }
+        .texto-azul{
+            color:rgb(103, 149, 170);
+        }
         .precio{
             font-size:xx-large;
+        }
+
+        .texto-s{
+            font-size: 12px;
+
+        }
+        .texto-m{
+            font-size: 23px;
+        }
+
+        .negrita{
+            font-weight: bold;
+        }
+        .caja-naranja{
+            background-color:#f73;
+            border-radius: 5px;
+            padding: 2px;
         }
     </style>
 </head>
@@ -55,14 +98,55 @@
                 </div>
                 <div class="columna-derecha">
                     <div class= "cuadro-precio"> 
-                        <h1>Antiparras</h1>
-                        <h2>Natacion</h2>
+                        <p class="texto-gris texto-s"> Nuevo | 992 vendidos</p>
+                        <p class= "texto-m negrita">Antiparras Pileta Natación Marfed Silicona Antifog Regulable</p>
+                        <p class="texto-gris texto-s"> <img src="image/estrellitaml.png" alt="">  88 opiniones</p> 
+                        <div style="overflow: hidden;">
+                            <div class="columna-izq2 caja-naranja texto-s texto-blanco"> MÁS VENDIDO</div>
+                            <div class="columna-der2 texto-azul texto-s"> 10° en Argentina </div>
+
+                        </div>
+
                         <p>
                             <span class="precio"> $1500</span>
                             <sup class="texto-verde">15%OFF</sup>
                         </p>
-                        <p>En 12x $125</p>
-                        <p>Llega<b> entre el lunes y el martes</b> por $889,99</p>
+                        <p>en 12x $125</p>
+                        <p class="texto-azul texto-s"> Ver los medios de pago 
+                        </p>
+                        <div style="overflow: hidden;">
+                            <div class="columna-izq3">
+                                <p> <img src="image/camion.png" alt="" srcset=""></p>
+                            </div>
+
+                            <div class="columna-der3"> 
+                                <span class="texto-verde"> Llega <b> entre el lunes y el martes</b> </span> 
+                                por $889,99 <img src="image/full.png" alt=""></p> 
+                                <p class="texto-azul texto-s">Ver más formas de entrega</p> 
+                                
+                            </div>  
+                                                
+
+                        </div>
+                        <div style="overflow: hidden;">
+                            <div class="columna-izq3">
+                                <p> <img src="image/flechita.png" alt="" srcset=""></p>
+                            </div>
+
+                            <div class="columna-der3"> 
+                                <span class="texto-verde">Devolucion gratis</span>
+                                <p class="texto-s"> Tenes 30 dias desde que lo recibis </p>
+
+                                <p class="texto-azul texto-s">Conocer más</p> 
+                                
+                            </div>  
+                                                
+
+                        </div>
+
+
+
+
                     </div>
                 </div>
         </div>
