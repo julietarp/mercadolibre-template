@@ -1,0 +1,117 @@
+body{
+    font-family: Proxima Nova,-apple-system,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    margin: 0;
+}
+.contenido {
+    background-color:rgba(0,0,0,.1);
+    padding-left: 75px;
+    padding-right: 75px;
+}
+.header{
+    background-color:#fff159 ; 
+}
+.caja-blanca {
+    padding: 20px;
+    background-color: white;
+}
+.columna-izquierda {
+    float:left; 
+    width:700px;
+    padding:20px;
+}
+.columna-derecha{
+    float:left;
+    width:350px;
+}
+.columna-izq2{
+    float: left;
+    width: 85px;
+}
+.columna-der2{
+    float: left;
+    padding-left: 7px;
+
+}
+.columna-izq3{
+    float:left;
+    width: 50px;
+}
+.columna-der3{
+    float: left;
+    width: 250px;
+}
+.columna-i4{
+    float: left;
+    width: 70px;
+
+}
+.columna-d4{
+    float: left;
+    width: 200px;
+
+}
+.cuadro-precio{ 
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid rgb(196, 191, 191);
+}
+.texto-verde{
+    color: green;
+}
+.texto-gris{
+    color: grey; 
+}
+.texto-blanco{
+    color: white;
+}
+.texto-azul{
+    color:rgb(103, 149, 170);
+}
+.precio{
+    font-size:xx-large;
+}
+
+.texto-s{
+    font-size: 12px;
+
+}
+.texto-m{
+    font-size: 23px;
+}
+
+.negrita{
+    font-weight: bold;
+}
+.caja-naranja{
+    background-color:#f73;
+    border-radius: 5px;
+    padding: 2px;
+}
+.boton-comprar{
+    background-color: rgb(0, 119, 255);
+    border-radius:10px ;
+    padding:20px
+}
+.agregar-carrito{
+    background-color: rgba(166, 187, 207, 0.425);
+    border-radius:10px ;
+    padding:20px
+}
+.flexbox {
+    align-items: center;
+    display: flex;
+    height: 15px;
+    justify-content: center;
+    width: 270px;
+}
+.mercado-credito{
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 3px 3px 18px #bfc3c4;
+    line-height: 150%;
+
+}
+.borde-peque{
+    border-left:1px solid rgb(196, 191, 191);
+}
