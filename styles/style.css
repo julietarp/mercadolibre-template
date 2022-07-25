@@ -120,3 +120,19 @@ body{
     border-top-style: solid;
     border-top-color: rgb(231, 225, 225);
   } 
+
+.img-historia{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border: 2px solid white;
+
+}
+.borde-historia{
+    height:84px; 
+    width:84px; 
+    border: 2px solid red; 
+    padding-left:0; 
+    border-radius: 50%;
+
+}
