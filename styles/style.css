@@ -150,3 +150,9 @@ body{
     border-radius: 50%;
 
 }
+.img-comentarios{
+    height: 3px;
+    width: 3px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
